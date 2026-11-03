@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2080 2740" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <rect x="0" y="0" width="2080" height="2740" style="fill:white;"/>
+    <g>
+        <g transform="matrix(1,0,0,1,80,120)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:44px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,156)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:18px;">Design sketch · CS 347 Final Project</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,184)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;">Wireframes for signed-out and signed-in screens. <tspan x="287.346px 295.287px " y="0px 0px ">Th</tspan>e URL<tspan x="338.889px 342.5px " y="0px 0px "> f</tspan>or each screen is in its address bar<tspan x="546.997px " y="0px ">.</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,1220,96)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;">Legend</text>
+        </g>
+        <circle cx="1229" cy="124" r="9"/>
+        <g transform="matrix(1,0,0,1,1229,127.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1246,128)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Create</text>
+        </g>
+        <circle cx="1349" cy="124" r="9"/>
+        <g transform="matrix(1,0,0,1,1349,127.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1366,128)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Read</text>
+        </g>
+        <circle cx="1469" cy="124" r="9"/>
+        <g transform="matrix(1,0,0,1,1469,127.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1486,128)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Update</text>
+        </g>
+        <circle cx="1589" cy="124" r="9"/>
+        <g transform="matrix(1,0,0,1,1589,127.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">D</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1606,128)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Delete</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1220,164)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">The nav bar is shared by every page (base template).</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1220,184)">
+            <g transform="matrix(12,0,0,12,356.197266,0)">
+            </g>
+            <g transform="matrix(12,0,0,12,359.53125,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Signed out: Search · Help.  Signed in adds My Shots · Boards · Proﬁle (A).</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1220,204)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Registration, sign in and sign out are intentionally not shown.</text>
+        </g>
+        <path d="M80,236L2000,236" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,80,290)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:24px;">Signed out</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,314)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;">Anyone can visit these pages.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,366)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Landing</text>
+        </g>
+        <path d="M680,394L680,826C680,833.727 673.727,840 666,840L94,840C86.273,840 80,833.727 80,826L80,394C80,386.273 86.273,380 94,380L666,380C673.727,380 680,386.273 680,394Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="100" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="116" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="132" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M510,398C510,403.519 505.519,408 500,408L260,408C254.481,408 250,403.519 250,398C250,392.481 254.481,388 260,388L500,388C505.519,388 510,392.481 510,398Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,402)">
+            <text x="-45.154px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">shotcoach.tech/</text>
+        </g>
+        <path d="M80,416L680,416" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,444)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,630.4,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,572,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <path d="M80,462L680,462" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,512)">
+            <text x="-161.875px" y="0px" style="font-family:'Helvetica';font-size:28px;">See how the pros shoot it.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,380,536)">
+            <text x="-172.438px" y="0px" style="font-family:'Helvetica';font-size:12px;">Describe a shot or upload one. Get pro references and coaching.</text>
+        </g>
+        <path d="M490,564L490,582C490,586.415 486.415,590 482,590L158,590C153.585,590 150,586.415 150,582L150,564C150,559.585 153.585,556 158,556L482,556C486.415,556 490,559.585 490,564Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,162,577)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">moody portrait at night, neon lights</text>
+        </g>
+        <path d="M610,573C610,580.727 603.727,587 596,587L514,587C506.273,587 500,580.727 500,573C500,565.273 506.273,559 514,559L596,559C603.727,559 610,565.273 610,573Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,555,577)">
+            <text x="-38.213px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Find references</text>
+        </g>
+        <g transform="matrix(1,0,0,1,380,616)">
+            <text x="-70.627px" y="0px" style="font-family:'Helvetica';font-size:11px;">or upload your own photo</text>
+            <text x="59.627px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:11px;">→</text>
+            <rect x="-70.627" y="1.074" width="130.254" height="0.542"/>
+            <rect x="59.627" y="1.074" width="11" height="0.542"/>
+        </g>
+        <circle cx="200" cy="648" r="12" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,200,652)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">1</text>
+        </g>
+        <g transform="matrix(1,0,0,1,200,678)">
+            <text x="-46.165px" y="0px" style="font-family:'Helvetica';font-size:11px;">Describe or upload</text>
+        </g>
+        <circle cx="380" cy="648" r="12" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,652)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">2</text>
+        </g>
+        <g transform="matrix(1,0,0,1,380,678)">
+            <text x="-46.156px" y="0px" style="font-family:'Helvetica';font-size:11px;">Compare with pros</text>
+        </g>
+        <circle cx="560" cy="648" r="12" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,560,652)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">3</text>
+        </g>
+        <g transform="matrix(1,0,0,1,560,678)">
+            <text x="-31.187px" y="0px" style="font-family:'Helvetica';font-size:11px;">Get coached</text>
+        </g>
+        <path d="M230,704L230,788C230,791.311 227.311,794 224,794L110,794C106.689,794 104,791.311 104,788L104,704C104,700.689 106.689,698 110,698L224,698C227.311,698 230,700.689 230,704Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M133.2,767.1L156.4,741.8L169.1,754.4L183.9,733.3L200.8,767.1" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="147.992" cy="729.104" r="5.914" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M372,704L372,788C372,791.311 369.311,794 366,794L252,794C248.689,794 246,791.311 246,788L246,704C246,700.689 248.689,698 252,698L366,698C369.311,698 372,700.689 372,704Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M275.2,767.1L298.4,741.8L311.1,754.4L325.9,733.3L342.8,767.1" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="289.992" cy="729.104" r="5.914" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M514,704L514,788C514,791.311 511.311,794 508,794L394,794C390.689,794 388,791.311 388,788L388,704C388,700.689 390.689,698 394,698L508,698C511.311,698 514,700.689 514,704Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M417.2,767.1L440.4,741.8L453.1,754.4L467.9,733.3L484.8,767.1" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="431.992" cy="729.104" r="5.914" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M656,704L656,788C656,791.311 653.311,794 650,794L536,794C532.689,794 530,791.311 530,788L530,704C530,700.689 532.689,698 536,698L650,698C653.311,698 656,700.689 656,704Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M559.2,767.1L582.4,741.8L595.1,754.4L609.9,733.3L626.8,767.1" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="573.992" cy="729.104" r="5.914" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,740,366)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Idea search results</text>
+        </g>
+        <path d="M1340,394L1340,826C1340,833.727 1333.727,840 1326,840L754,840C746.273,840 740,833.727 740,826L740,394C740,386.273 746.273,380 754,380L1326,380C1333.727,380 1340,386.273 1340,394Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="760" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="776" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="792" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1170,398C1170,403.519 1165.519,408 1160,408L920,408C914.481,408 910,403.519 910,398C910,392.481 914.481,388 920,388L1160,388C1165.519,388 1170,392.481 1170,398Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1040,402)">
+            <text x="-90.308px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/search/?q=moody+portrait+neon</text>
+        </g>
+        <path d="M740,416L1340,416" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,444)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1290.4,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1232,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+            <rect x="0" y="0.833" width="34.853" height="0.542"/>
+        </g>
+        <path d="M740,462L1340,462" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1200,486L1200,500C1200,504.415 1196.415,508 1192,508L772,508C767.585,508 764,504.415 764,500L764,486C764,481.585 767.585,478 772,478L1192,478C1196.415,478 1200,481.585 1200,486Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,776,497)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">moody portrait at night, neon lights</text>
+        </g>
+        <path d="M1316,493C1316,500.727 1309.727,507 1302,507L1224,507C1216.273,507 1210,500.727 1210,493C1210,485.273 1216.273,479 1224,479L1302,479C1309.727,479 1316,485.273 1316,493Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1263,497)">
+            <text x="-17.427px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Search</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,532)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">AI keywords</text>
+        </g>
+        <path d="M940,529C940,535.071 935.071,540 929,540L847,540C840.929,540 836,535.071 836,529C836,522.929 840.929,518 847,518L929,518C935.071,518 940,522.929 940,529Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,888,533)">
+            <text x="-27.793px" y="0px" style="font-family:'Helvetica';font-size:10px;">night portrait</text>
+        </g>
+        <path d="M1028,529C1028,535.071 1023.071,540 1017,540L959,540C952.929,540 948,535.071 948,529C948,522.929 952.929,518 959,518L1017,518C1023.071,518 1028,522.929 1028,529Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,988,533)">
+            <text x="-21.685px" y="0px" style="font-family:'Helvetica';font-size:10px;">neon light</text>
+        </g>
+        <path d="M1098,529C1098,535.071 1093.071,540 1087,540L1047,540C1040.929,540 1036,535.071 1036,529C1036,522.929 1040.929,518 1047,518L1087,518C1093.071,518 1098,522.929 1098,529Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1067,533)">
+            <text x="-16.672px" y="0px" style="font-family:'Helvetica';font-size:10px;">low key</text>
+        </g>
+        <path d="M1156,529C1156,535.071 1151.071,540 1145,540L1117,540C1110.929,540 1106,535.071 1106,529C1106,522.929 1110.929,518 1117,518L1145,518C1151.071,518 1156,522.929 1156,529Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1131,533)">
+            <text x="-13.623px" y="0px" style="font-family:'Helvetica';font-size:10px;">bokeh</text>
+        </g>
+        <path d="M1214,529C1214,535.071 1209.071,540 1203,540L1175,540C1168.929,540 1164,535.071 1164,529C1164,522.929 1168.929,518 1175,518L1203,518C1209.071,518 1214,522.929 1214,529Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1189,533)">
+            <text x="-12.788px" y="0px" style="font-family:'Helvetica';font-size:10px;">urban</text>
+        </g>
+        <path d="M890,562L890,632C890,635.311 887.311,638 884,638L770,638C766.689,638 764,635.311 764,632L764,562C764,558.689 766.689,556 770,556L884,556C887.311,556 890,558.689 890,562Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M798.1,615L818,593.4L828.8,604.2L841.4,586.2L855.9,615" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="810.764" cy="582.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1032,562L1032,632C1032,635.311 1029.311,638 1026,638L912,638C908.689,638 906,635.311 906,632L906,562C906,558.689 908.689,556 912,556L1026,556C1029.311,556 1032,558.689 1032,562Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M940.1,615L960,593.4L970.8,604.2L983.4,586.2L997.9,615" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="952.764" cy="582.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1174,562L1174,632C1174,635.311 1171.311,638 1168,638L1054,638C1050.689,638 1048,635.311 1048,632L1048,562C1048,558.689 1050.689,556 1054,556L1168,556C1171.311,556 1174,558.689 1174,562Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1082.1,615L1102,593.4L1112.8,604.2L1125.4,586.2L1139.9,615" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1094.764" cy="582.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1316,562L1316,632C1316,635.311 1313.311,638 1310,638L1196,638C1192.689,638 1190,635.311 1190,632L1190,562C1190,558.689 1192.689,556 1196,556L1310,556C1313.311,556 1316,558.689 1316,562Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1224.1,615L1244,593.4L1254.8,604.2L1267.4,586.2L1281.9,615" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1236.764" cy="582.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M890,674L890,744C890,747.311 887.311,750 884,750L770,750C766.689,750 764,747.311 764,744L764,674C764,670.689 766.689,668 770,668L884,668C887.311,668 890,670.689 890,674Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M798.1,727L818,705.4L828.8,716.2L841.4,698.2L855.9,727" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="810.764" cy="694.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1032,674L1032,744C1032,747.311 1029.311,750 1026,750L912,750C908.689,750 906,747.311 906,744L906,674C906,670.689 908.689,668 912,668L1026,668C1029.311,668 1032,670.689 1032,674Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M940.1,727L960,705.4L970.8,716.2L983.4,698.2L997.9,727" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="952.764" cy="694.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1174,674L1174,744C1174,747.311 1171.311,750 1168,750L1054,750C1050.689,750 1048,747.311 1048,744L1048,674C1048,670.689 1050.689,668 1054,668L1168,668C1171.311,668 1174,670.689 1174,674Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1082.1,727L1102,705.4L1112.8,716.2L1125.4,698.2L1139.9,727" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1094.764" cy="694.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1316,674L1316,744C1316,747.311 1313.311,750 1310,750L1196,750C1192.689,750 1190,747.311 1190,744L1190,674C1190,670.689 1192.689,668 1196,668L1310,668C1313.311,668 1316,670.689 1316,674Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1224.1,727L1244,705.4L1254.8,716.2L1267.4,698.2L1281.9,727" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1236.764" cy="694.568" r="5.051" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,980,812)">
+            <text x="-1.832px" y="0px" style="font-family:'Helvetica';font-size:11px;">‹</text>
+        </g>
+        <circle cx="1010" cy="808" r="10"/>
+        <g transform="matrix(1,0,0,1,1010,812)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">1</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1040,812)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">2</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1070,812)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">3</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1100,812)">
+            <text x="-1.832px" y="0px" style="font-family:'Helvetica';font-size:11px;">›</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1400,366)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Help: camera basics</text>
+        </g>
+        <path d="M2000,394L2000,826C2000,833.727 1993.727,840 1986,840L1414,840C1406.273,840 1400,833.727 1400,826L1400,394C1400,386.273 1406.273,380 1414,380L1986,380C1993.727,380 2000,386.273 2000,394Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="1420" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1436" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1452" cy="398" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1830,398C1830,403.519 1825.519,408 1820,408L1580,408C1574.481,408 1570,403.519 1570,398C1570,392.481 1574.481,388 1580,388L1820,388C1825.519,388 1830,392.481 1830,398Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1700,402)">
+            <text x="-18.062px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/help/</text>
+        </g>
+        <path d="M1400,416L2000,416" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,444)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1950.4,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+            <rect x="0" y="0.833" width="22.623" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1892,443)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <path d="M1400,462L2000,462" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,504)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">Camera basics</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,526)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">The three settings ShotCoach compares between your shot and the pros.</text>
+        </g>
+        <path d="M1596,560L1596,772C1596,778.623 1590.623,784 1584,784L1436,784C1429.377,784 1424,778.623 1424,772L1424,560C1424,553.377 1429.377,548 1436,548L1584,548C1590.623,548 1596,553.377 1596,560Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1510" cy="604" r="30" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1510" cy="604" r="20" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1510" cy="604" r="10" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1440,666)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:14px;">Aperture</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1440,684)">
+            <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">f/1.8 – f/16</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1440,708)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">How wide the lens opens. <tspan x="116.187px " y="0px ">A</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,1440,723)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">lower f-number blurs the</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1440,738)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">background.</text>
+        </g>
+        <path d="M1786,560L1786,772C1786,778.623 1780.623,784 1774,784L1626,784C1619.377,784 1614,778.623 1614,772L1614,560C1614,553.377 1619.377,548 1626,548L1774,548C1780.623,548 1786,553.377 1786,560Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1666,578L1734,578" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1670,591L1730,591" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1674,604L1726,604" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1678,617L1722,617" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1682,630L1718,630" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1630,666)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:14px;">Shutter speed</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1630,684)">
+            <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">1/1000s – 1s</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1630,708)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">How long light reaches the</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1630,723)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">sensor<tspan x="29.468px 32.246px " y="0px 0px ">. </tspan>Faster freezes</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1630,738)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">motion.</text>
+        </g>
+        <path d="M1976,560L1976,772C1976,778.623 1970.623,784 1964,784L1816,784C1809.377,784 1804,778.623 1804,772L1804,560C1804,553.377 1809.377,548 1816,548L1964,548C1970.623,548 1976,553.377 1976,560Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1860" cy="586" r="1.3"/>
+        <circle cx="1867.5" cy="589" r="1.8"/>
+        <circle cx="1875" cy="586" r="2.3"/>
+        <circle cx="1882.5" cy="589" r="1.3"/>
+        <circle cx="1890" cy="586" r="1.8"/>
+        <circle cx="1897.5" cy="589" r="2.3"/>
+        <circle cx="1905" cy="586" r="1.3"/>
+        <circle cx="1912.5" cy="589" r="1.8"/>
+        <circle cx="1920" cy="586" r="2.3"/>
+        <circle cx="1860" cy="601" r="1.3"/>
+        <circle cx="1867.5" cy="598" r="1.8"/>
+        <circle cx="1875" cy="601" r="2.3"/>
+        <circle cx="1882.5" cy="598" r="1.3"/>
+        <circle cx="1890" cy="601" r="1.8"/>
+        <circle cx="1897.5" cy="598" r="2.3"/>
+        <circle cx="1905" cy="601" r="1.3"/>
+        <circle cx="1912.5" cy="598" r="1.8"/>
+        <circle cx="1920" cy="601" r="2.3"/>
+        <circle cx="1860" cy="610" r="1.3"/>
+        <circle cx="1867.5" cy="613" r="1.8"/>
+        <circle cx="1875" cy="610" r="2.3"/>
+        <circle cx="1882.5" cy="613" r="1.3"/>
+        <circle cx="1890" cy="610" r="1.8"/>
+        <circle cx="1897.5" cy="613" r="2.3"/>
+        <circle cx="1905" cy="610" r="1.3"/>
+        <circle cx="1912.5" cy="613" r="1.8"/>
+        <circle cx="1920" cy="610" r="2.3"/>
+        <circle cx="1860" cy="625" r="1.3"/>
+        <circle cx="1867.5" cy="622" r="1.8"/>
+        <circle cx="1875" cy="625" r="2.3"/>
+        <circle cx="1882.5" cy="622" r="1.3"/>
+        <circle cx="1890" cy="625" r="1.8"/>
+        <circle cx="1897.5" cy="622" r="2.3"/>
+        <circle cx="1905" cy="625" r="1.3"/>
+        <circle cx="1912.5" cy="622" r="1.8"/>
+        <circle cx="1920" cy="625" r="2.3"/>
+        <g transform="matrix(1,0,0,1,1820,666)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:14px;">ISO</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1820,684)">
+            <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">100 – 6400</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1820,708)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">How sensitive the sensor</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1820,723)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">is. Higher is brighter but</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1820,738)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">grainier<tspan x="32.803px " y="0px ">.</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,1700,812)">
+            <g transform="matrix(10,0,0,10,102.932129,0)">
+            </g>
+            <g transform="matrix(10,0,0,10,105.710449,0)">
+            </g>
+            <text x="-134.617px" y="0px" style="font-family:'Helvetica';font-size:10px;">T<tspan x="-128.875px -126.653px " y="0px 0px ">ip</tspan>: tap any setting in a coaching report for a quick deﬁnition.</text>
+        </g>
+        <path d="M80,900L2000,900" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,80,950)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:24px;">Signed in</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,974)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:13px;">Login required. <tspan x="89.629px 98.3px " y="0px 0px ">An</tspan>onymous visitors are redirected to log in. Each user only sees their own shots and boards.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,1026)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">My Shots (list + search)</text>
+        </g>
+        <path d="M680,1054L680,1486C680,1493.727 673.727,1500 666,1500L94,1500C86.273,1500 80,1493.727 80,1486L80,1054C80,1046.273 86.273,1040 94,1040L666,1040C673.727,1040 680,1046.273 680,1054Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="100" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="116" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="132" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M510,1058C510,1063.519 505.519,1068 500,1068L260,1068C254.481,1068 250,1063.519 250,1058C250,1052.481 254.481,1048 260,1048L500,1048C505.519,1048 510,1052.481 510,1058Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,1062)">
+            <text x="-21.072px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/shots/</text>
+        </g>
+        <path d="M80,1076L680,1076" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1104)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,598.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,540,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,468.8,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+            <rect x="0" y="0.833" width="45.848" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,410.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="644" cy="1099" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,644,1103)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M80,1122L680,1122" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1164)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">My Shots</text>
+        </g>
+        <circle cx="225.6" cy="1156.08" r="9"/>
+        <g transform="matrix(1,0,0,1,225.6,1159.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <path d="M656,1157C656,1164.727 649.727,1171 642,1171L570,1171C562.273,1171 556,1164.727 556,1157C556,1149.273 562.273,1143 570,1143L642,1143C649.727,1143 656,1149.273 656,1157Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,606,1161)">
+            <text x="-28.585px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">+ New Shot</text>
+        </g>
+        <circle cx="652" cy="1144" r="10.5" style="fill:white;"/>
+        <circle cx="652" cy="1144" r="9"/>
+        <g transform="matrix(1,0,0,1,652,1147.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <path d="M484,1188L484,1202C484,1206.415 480.415,1210 476,1210L112,1210C107.585,1210 104,1206.415 104,1202L104,1188C104,1183.585 107.585,1180 112,1180L476,1180C480.415,1180 484,1183.585 484,1188Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,116,1199)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search your shots</text>
+        </g>
+        <path d="M656,1188L656,1202C656,1206.415 652.415,1210 648,1210L502,1210C497.585,1210 494,1206.415 494,1202L494,1188C494,1183.585 497.585,1180 502,1180L648,1180C652.415,1180 656,1183.585 656,1188Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,506,1199)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">All shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,642,1199)">
+            <text x="-7.225px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:12px;">⌄</text>
+        </g>
+        <path d="M280,1232L280,1294C280,1297.311 277.311,1300 274,1300L110,1300C106.689,1300 104,1297.311 104,1294L104,1232C104,1228.689 106.689,1226 110,1226L274,1226C277.311,1226 280,1228.689 280,1232Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M166,1279.3L183.9,1259.7L193.6,1269.5L205,1253.2L218,1279.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="177.348" cy="1249.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1316)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Neon portrait</text>
+        </g>
+        <g transform="matrix(1,0,0,1,104,1329)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 28 · Coached</text>
+        </g>
+        <path d="M468,1232L468,1294C468,1297.311 465.311,1300 462,1300L298,1300C294.689,1300 292,1297.311 292,1294L292,1232C292,1228.689 294.689,1226 298,1226L462,1226C465.311,1226 468,1228.689 468,1232Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M354,1279.3L371.9,1259.7L381.6,1269.5L393,1253.2L406,1279.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="365.348" cy="1249.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,292,1316)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Golden hour bridge</text>
+        </g>
+        <g transform="matrix(1,0,0,1,292,1329)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 24 · Coached</text>
+        </g>
+        <path d="M656,1232L656,1294C656,1297.311 653.311,1300 650,1300L486,1300C482.689,1300 480,1297.311 480,1294L480,1232C480,1228.689 482.689,1226 486,1226L650,1226C653.311,1226 656,1228.689 656,1232Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M542,1279.3L559.9,1259.7L569.6,1269.5L581,1253.2L594,1279.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="553.348" cy="1249.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,480,1316)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Cof<tspan x="16.924px 19.98px " y="0px 0px ">fe</tspan>e still life</text>
+        </g>
+        <g transform="matrix(1,0,0,1,480,1329)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 19 · Coached</text>
+        </g>
+        <path d="M280,1348L280,1410C280,1413.311 277.311,1416 274,1416L110,1416C106.689,1416 104,1413.311 104,1410L104,1348C104,1344.689 106.689,1342 110,1342L274,1342C277.311,1342 280,1344.689 280,1348Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M166,1395.3L183.9,1375.7L193.6,1385.5L205,1369.2L218,1395.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="177.348" cy="1365.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1432)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Rainy street</text>
+        </g>
+        <g transform="matrix(1,0,0,1,104,1445)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 12 · Coached</text>
+        </g>
+        <path d="M468,1348L468,1410C468,1413.311 465.311,1416 462,1416L298,1416C294.689,1416 292,1413.311 292,1410L292,1348C292,1344.689 294.689,1342 298,1342L462,1342C465.311,1342 468,1344.689 468,1348Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M354,1395.3L371.9,1375.7L381.6,1385.5L393,1369.2L406,1395.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="365.348" cy="1365.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,292,1432)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Campus quad</text>
+        </g>
+        <g transform="matrix(1,0,0,1,292,1445)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 7 · Coached</text>
+        </g>
+        <path d="M656,1348L656,1410C656,1413.311 653.311,1416 650,1416L486,1416C482.689,1416 480,1413.311 480,1410L480,1348C480,1344.689 482.689,1342 486,1342L650,1342C653.311,1342 656,1344.689 656,1348Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M542,1395.3L559.9,1375.7L569.6,1385.5L581,1369.2L594,1395.3" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="553.348" cy="1365.976" r="4.558" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,480,1432)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Night skyline</text>
+        </g>
+        <g transform="matrix(1,0,0,1,480,1445)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Oct 2 · Coached</text>
+        </g>
+        <g transform="matrix(1,0,0,1,320,1480)">
+            <text x="-1.832px" y="0px" style="font-family:'Helvetica';font-size:11px;">‹</text>
+        </g>
+        <circle cx="350" cy="1476" r="10"/>
+        <g transform="matrix(1,0,0,1,350,1480)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">1</text>
+        </g>
+        <g transform="matrix(1,0,0,1,380,1480)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">2</text>
+        </g>
+        <g transform="matrix(1,0,0,1,410,1480)">
+            <text x="-3.059px" y="0px" style="font-family:'Helvetica';font-size:11px;">3</text>
+        </g>
+        <g transform="matrix(1,0,0,1,440,1480)">
+            <text x="-1.832px" y="0px" style="font-family:'Helvetica';font-size:11px;">›</text>
+        </g>
+        <g transform="matrix(1,0,0,1,740,1026)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">New Shot (create)</text>
+        </g>
+        <path d="M1340,1054L1340,1486C1340,1493.727 1333.727,1500 1326,1500L754,1500C746.273,1500 740,1493.727 740,1486L740,1054C740,1046.273 746.273,1040 754,1040L1326,1040C1333.727,1040 1340,1046.273 1340,1054Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="760" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="776" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="792" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1170,1058C1170,1063.519 1165.519,1068 1160,1068L920,1068C914.481,1068 910,1063.519 910,1058C910,1052.481 914.481,1048 920,1048L1160,1048C1165.519,1048 1170,1052.481 1170,1058Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1040,1062)">
+            <text x="-33.113px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/shots/new/</text>
+        </g>
+        <path d="M740,1076L1340,1076" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,1104)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1258.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1200,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1128.8,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+            <rect x="0" y="0.833" width="45.848" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1070.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1304" cy="1099" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1304,1103)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M740,1122L1340,1122" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,1164)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">New Shot</text>
+        </g>
+        <circle cx="885.6" cy="1156.08" r="9"/>
+        <g transform="matrix(1,0,0,1,885.6,1159.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <path d="M1316,1192L1316,1286C1316,1292.623 1310.623,1298 1304,1298L776,1298C769.377,1298 764,1292.623 764,1286L764,1192C764,1185.377 769.377,1180 776,1180L1304,1180C1310.623,1180 1316,1185.377 1316,1192Z" style="fill:none;stroke:black;stroke-width:1px;stroke-dasharray:5,4;"/>
+        <path d="M1060,1202L1060,1222C1060,1225.311 1057.311,1228 1054,1228L1026,1228C1022.689,1228 1020,1225.311 1020,1222L1020,1202C1020,1198.689 1022.689,1196 1026,1196L1054,1196C1057.311,1196 1060,1198.689 1060,1202Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1028.7,1219L1036.5,1210.6L1040.7,1214.8L1045.6,1207.8L1051.3,1219" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1033.664" cy="1206.368" r="1.971" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1040,1254)">
+            <g transform="matrix(12,0,0,12,75.383789,0)">
+            </g>
+            <g transform="matrix(12,0,0,12,78.717773,0)">
+            </g>
+            <text x="-90.724px" y="0px" style="font-family:'Helvetica';font-size:12px;">Drag a photo here or choose a ﬁle</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1040,1272)">
+            <text x="-132px" y="0px" style="font-family:'Helvetica';font-size:10px;">JPG, PNG or HEIC · up to 10 MB · location data is removed</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,1322)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">T<tspan x="5.742px 7.964px " y="0px 0px ">it</tspan>le</text>
+        </g>
+        <path d="M1316,1336L1316,1350C1316,1354.415 1312.415,1358 1308,1358L772,1358C767.585,1358 764,1354.415 764,1350L764,1336C764,1331.585 767.585,1328 772,1328L1308,1328C1312.415,1328 1316,1331.585 1316,1336Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,776,1347)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Neon portrait</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,1376)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">What were you going for? (optional)</text>
+        </g>
+        <path d="M1316,1390L1316,1428C1316,1432.415 1312.415,1436 1308,1436L772,1436C767.585,1436 764,1432.415 764,1428L764,1390C764,1385.585 767.585,1382 772,1382L1308,1382C1312.415,1382 1316,1385.585 1316,1390Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,776,1402)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Moody<tspan x="32.205px 35.261px " y="0px 0px ">, </tspan>cinematic portrait under neon signs…</text>
+        </g>
+        <path d="M1166,1468C1166,1475.727 1159.727,1482 1152,1482L1090,1482C1082.273,1482 1076,1475.727 1076,1468C1076,1460.273 1082.273,1454 1090,1454L1152,1454C1159.727,1454 1166,1460.273 1166,1468Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1121,1472)">
+            <text x="-17.12px" y="0px" style="font-family:'Helvetica';font-size:11px;">Cancel</text>
+        </g>
+        <path d="M1316,1468C1316,1475.727 1309.727,1482 1302,1482L1190,1482C1182.273,1482 1176,1475.727 1176,1468C1176,1460.273 1182.273,1454 1190,1454L1302,1454C1309.727,1454 1316,1460.273 1316,1468Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1246,1472)">
+            <text x="-54.122px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Upload &amp; get coached</text>
+        </g>
+        <circle cx="1312" cy="1455" r="10.5" style="fill:white;"/>
+        <circle cx="1312" cy="1455" r="9"/>
+        <g transform="matrix(1,0,0,1,1312,1458.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1400,1026)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Shot detail + <tspan x="87.158px 97.163px " y="0px 0px ">AI</tspan> coaching</text>
+        </g>
+        <path d="M2000,1054L2000,1486C2000,1493.727 1993.727,1500 1986,1500L1414,1500C1406.273,1500 1400,1493.727 1400,1486L1400,1054C1400,1046.273 1406.273,1040 1414,1040L1986,1040C1993.727,1040 2000,1046.273 2000,1054Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="1420" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1436" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1452" cy="1058" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1830,1058C1830,1063.519 1825.519,1068 1820,1068L1580,1068C1574.481,1068 1570,1063.519 1570,1058C1570,1052.481 1574.481,1048 1580,1048L1820,1048C1825.519,1048 1830,1052.481 1830,1058Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1700,1062)">
+            <text x="-30.103px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/shots/42/</text>
+        </g>
+        <path d="M1400,1076L2000,1076" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1104)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1918.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1860,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1788.8,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+            <rect x="0" y="0.833" width="45.848" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1730.4,1103)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1964" cy="1099" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1964,1103)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M1400,1122L2000,1122" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1144)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">‹ My Shots</text>
+        </g>
+        <path d="M1674,1160L1674,1326C1674,1329.311 1671.311,1332 1668,1332L1430,1332C1426.689,1332 1424,1329.311 1424,1326L1424,1160C1424,1156.689 1426.689,1154 1430,1154L1668,1154C1671.311,1154 1674,1156.689 1674,1160Z" style="fill:white;stroke:black;stroke-width:1.2px;"/>
+        <path d="M1486.3,1282.2L1529.4,1235.2L1552.9,1258.7L1580.3,1219.5L1611.7,1282.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1513.756" cy="1211.672" r="10.965" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1350)">
+            <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">Yours   f/2.8 · 1/60s · ISO 800 · 26mm</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,1366)">
+            <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">Pros     f/1.8 · 1/250s · ISO 1600 · 50mm</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1170)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:18px;">Neon portrait</text>
+        </g>
+        <circle cx="1850.4" cy="1163.52" r="9"/>
+        <g transform="matrix(1,0,0,1,1850.4,1167.02)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1188)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Uploaded Oct 28 · Coached by <tspan x="138.984px 145.654px " y="0px 0px ">AI</tspan></text>
+        </g>
+        <path d="M1764,1214C1764,1221.727 1757.727,1228 1750,1228L1708,1228C1700.273,1228 1694,1221.727 1694,1214C1694,1206.273 1700.273,1200 1708,1200L1750,1200C1757.727,1200 1764,1206.273 1764,1214Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1729,1218)">
+            <text x="-9.477px" y="0px" style="font-family:'Helvetica';font-size:11px;">Edit</text>
+        </g>
+        <circle cx="1760" cy="1201" r="10.5" style="fill:white;"/>
+        <circle cx="1760" cy="1201" r="9"/>
+        <g transform="matrix(1,0,0,1,1760,1204.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <path d="M1850,1214C1850,1221.727 1843.727,1228 1836,1228L1794,1228C1786.273,1228 1780,1221.727 1780,1214C1780,1206.273 1786.273,1200 1794,1200L1836,1200C1843.727,1200 1850,1206.273 1850,1214Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1815,1218)">
+            <text x="-15.898px" y="0px" style="font-family:'Helvetica';font-size:11px;">Delete</text>
+        </g>
+        <circle cx="1846" cy="1201" r="10.5" style="fill:white;"/>
+        <circle cx="1846" cy="1201" r="9"/>
+        <g transform="matrix(1,0,0,1,1846,1204.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">D</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1258)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Coach&apos;s notes</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1278)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">1  Shoot from lower so the signs frame you.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1295)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">2  Open to f/1.8 for a softer background.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1312)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">3  Use 1/250s to avoid motion blur<tspan x="151.206px " y="0px ">.</tspan></text>
+        </g>
+        <g transform="matrix(1,0,0,1,1694,1329)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">4  Place the face on a third, not centered.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,1392)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:12px;">Similar pro shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1976,1392)">
+            <text x="-117.817px" y="0px" style="font-family:'Helvetica';font-size:10px;">Ranked by visual similarity</text>
+        </g>
+        <path d="M1550,1408L1550,1458C1550,1461.311 1547.311,1464 1544,1464L1430,1464C1426.689,1464 1424,1461.311 1424,1458L1424,1408C1424,1404.689 1426.689,1402 1430,1402L1544,1402C1547.311,1402 1550,1404.689 1550,1408Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1465.2,1446.6L1480.2,1430.3L1488.4,1438.5L1497.9,1424.8L1508.8,1446.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1474.724" cy="1422.088" r="3.819" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1480)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">94% match</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1550,1480)">
+            <text x="-31.772px" y="0px" style="font-family:'Helvetica';font-size:9px;">+ Board</text>
+            <rect x="-31.772" y="0.681" width="31.772" height="0.444"/>
+        </g>
+        <path d="M1692,1408L1692,1458C1692,1461.311 1689.311,1464 1686,1464L1572,1464C1568.689,1464 1566,1461.311 1566,1458L1566,1408C1566,1404.689 1568.689,1402 1572,1402L1686,1402C1689.311,1402 1692,1404.689 1692,1408Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1607.2,1446.6L1622.2,1430.3L1630.4,1438.5L1639.9,1424.8L1650.8,1446.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1616.724" cy="1422.088" r="3.819" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1566,1480)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">91% match</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1692,1480)">
+            <text x="-31.772px" y="0px" style="font-family:'Helvetica';font-size:9px;">+ Board</text>
+            <rect x="-31.772" y="0.681" width="31.772" height="0.444"/>
+        </g>
+        <path d="M1834,1408L1834,1458C1834,1461.311 1831.311,1464 1828,1464L1714,1464C1710.689,1464 1708,1461.311 1708,1458L1708,1408C1708,1404.689 1710.689,1402 1714,1402L1828,1402C1831.311,1402 1834,1404.689 1834,1408Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1749.2,1446.6L1764.2,1430.3L1772.4,1438.5L1781.9,1424.8L1792.8,1446.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1758.724" cy="1422.088" r="3.819" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1708,1480)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">88% match</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1834,1480)">
+            <text x="-31.772px" y="0px" style="font-family:'Helvetica';font-size:9px;">+ Board</text>
+            <rect x="-31.772" y="0.681" width="31.772" height="0.444"/>
+        </g>
+        <path d="M1976,1408L1976,1458C1976,1461.311 1973.311,1464 1970,1464L1856,1464C1852.689,1464 1850,1461.311 1850,1458L1850,1408C1850,1404.689 1852.689,1402 1856,1402L1970,1402C1973.311,1402 1976,1404.689 1976,1408Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1891.2,1446.6L1906.2,1430.3L1914.4,1438.5L1923.9,1424.8L1934.8,1446.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1900.724" cy="1422.088" r="3.819" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1850,1480)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">85% match</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1976,1480)">
+            <text x="-31.772px" y="0px" style="font-family:'Helvetica';font-size:9px;">+ Board</text>
+            <rect x="-31.772" y="0.681" width="31.772" height="0.444"/>
+        </g>
+        <g transform="matrix(1,0,0,1,80,1606)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Edit Shot (update)</text>
+        </g>
+        <path d="M680,1634L680,2066C680,2073.727 673.727,2080 666,2080L94,2080C86.273,2080 80,2073.727 80,2066L80,1634C80,1626.273 86.273,1620 94,1620L666,1620C673.727,1620 680,1626.273 680,1634Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="100" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="116" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="132" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M510,1638C510,1643.519 505.519,1648 500,1648L260,1648C254.481,1648 250,1643.519 250,1638C250,1632.481 254.481,1628 260,1628L500,1628C505.519,1628 510,1632.481 510,1638Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,1642)">
+            <text x="-45.154px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/shots/42/edit/</text>
+        </g>
+        <path d="M80,1656L680,1656" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1684)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,598.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,540,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,468.8,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+            <rect x="0" y="0.833" width="45.848" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,410.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="644" cy="1679" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,644,1683)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M80,1702L680,1702" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,1744)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">Edit Shot</text>
+        </g>
+        <circle cx="238.8" cy="1736.08" r="9"/>
+        <g transform="matrix(1,0,0,1,238.8,1739.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <path d="M264,1766L264,1874C264,1877.311 261.311,1880 258,1880L110,1880C106.689,1880 104,1877.311 104,1874L104,1766C104,1762.689 106.689,1760 110,1760L258,1760C261.311,1760 264,1762.689 264,1766Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M141.8,1846.4L170.8,1814.7L186.6,1830.6L205.1,1804.2L226.2,1846.4" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="160.24" cy="1798.88" r="7.392" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M264,1906C264,1913.727 257.727,1920 250,1920L118,1920C110.273,1920 104,1913.727 104,1906C104,1898.273 110.273,1892 118,1892L250,1892C257.727,1892 264,1898.273 264,1906Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,184,1910)">
+            <text x="-35.471px" y="0px" style="font-family:'Helvetica';font-size:11px;">Replace photo</text>
+        </g>
+        <g transform="matrix(1,0,0,1,284,1770)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">T<tspan x="5.742px 7.964px " y="0px 0px ">it</tspan>le</text>
+        </g>
+        <path d="M656,1784L656,1798C656,1802.415 652.415,1806 648,1806L292,1806C287.585,1806 284,1802.415 284,1798L284,1784C284,1779.585 287.585,1776 292,1776L648,1776C652.415,1776 656,1779.585 656,1784Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,296,1795)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Neon portrait</text>
+        </g>
+        <g transform="matrix(1,0,0,1,284,1826)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Notes</text>
+        </g>
+        <path d="M656,1840L656,1894C656,1898.415 652.415,1902 648,1902L292,1902C287.585,1902 284,1898.415 284,1894L284,1840C284,1835.585 287.585,1832 292,1832L648,1832C652.415,1832 656,1835.585 656,1840Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,296,1852)">
+            <g transform="matrix(11,0,0,11,28.735352,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Notes</text>
+        </g>
+        <path d="M296,1921L296,1927C296,1928.656 294.656,1930 293,1930L287,1930C285.344,1930 284,1928.656 284,1927L284,1921C284,1919.344 285.344,1918 287,1918L293,1918C294.656,1918 296,1919.344 296,1921Z" style="stroke:black;stroke-width:1px;"/>
+        <path d="M287,1924L289.5,1926.5L293.5,1921.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.6px;stroke-linecap:round;"/>
+        <g transform="matrix(1,0,0,1,304,1928)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Re-run <tspan x="36.078px 43.415px " y="0px 0px ">AI</tspan> coaching with the updated notes</text>
+        </g>
+        <path d="M526,2048C526,2055.727 519.727,2062 512,2062L450,2062C442.273,2062 436,2055.727 436,2048C436,2040.273 442.273,2034 450,2034L512,2034C519.727,2034 526,2040.273 526,2048Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,481,2052)">
+            <text x="-17.12px" y="0px" style="font-family:'Helvetica';font-size:11px;">Cancel</text>
+        </g>
+        <path d="M656,2048C656,2055.727 649.727,2062 642,2062L550,2062C542.273,2062 536,2055.727 536,2048C536,2040.273 542.273,2034 550,2034L642,2034C649.727,2034 656,2040.273 656,2048Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,596,2052)">
+            <text x="-34.858px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Save changes</text>
+        </g>
+        <circle cx="652" cy="2035" r="10.5" style="fill:white;"/>
+        <circle cx="652" cy="2035" r="9"/>
+        <g transform="matrix(1,0,0,1,652,2038.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <g transform="matrix(1,0,0,1,740,1606)">
+            <g transform="matrix(15,0,0,15,111.730957,0)">
+            </g>
+            <g transform="matrix(15,0,0,15,115.898438,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Delete Shot (conﬁrm)</text>
+        </g>
+        <path d="M1340,1634L1340,2066C1340,2073.727 1333.727,2080 1326,2080L754,2080C746.273,2080 740,2073.727 740,2066L740,1634C740,1626.273 746.273,1620 754,1620L1326,1620C1333.727,1620 1340,1626.273 1340,1634Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="760" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="776" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="792" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1170,1638C1170,1643.519 1165.519,1648 1160,1648L920,1648C914.481,1648 910,1643.519 910,1638C910,1632.481 914.481,1628 920,1628L1160,1628C1165.519,1628 1170,1632.481 1170,1638Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1040,1642)">
+            <text x="-51.174px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/shots/42/delete/</text>
+        </g>
+        <path d="M740,1656L1340,1656" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,1684)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1258.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1200,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1128.8,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+            <rect x="0" y="0.833" width="45.848" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1070.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1304" cy="1679" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1304,1683)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M740,1702L1340,1702" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <path d="M1014,1740L1014,1906C1014,1909.311 1011.311,1912 1008,1912L770,1912C766.689,1912 764,1909.311 764,1906L764,1740C764,1736.689 766.689,1734 770,1734L1008,1734C1011.311,1734 1014,1736.689 1014,1740Z" style="fill:none;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1034,1750L1300,1750" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1034,1774L1270,1774" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1034,1798L1240,1798" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1034,1822L1210,1822" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1034,1846L1180,1846" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M890,1988L890,2038C890,2041.311 887.311,2044 884,2044L770,2044C766.689,2044 764,2041.311 764,2038L764,1988C764,1984.689 766.689,1982 770,1982L884,1982C887.311,1982 890,1984.689 890,1988Z" style="fill:none;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1032,1988L1032,2038C1032,2041.311 1029.311,2044 1026,2044L912,2044C908.689,2044 906,2041.311 906,2038L906,1988C906,1984.689 908.689,1982 912,1982L1026,1982C1029.311,1982 1032,1984.689 1032,1988Z" style="fill:none;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1174,1988L1174,2038C1174,2041.311 1171.311,2044 1168,2044L1054,2044C1050.689,2044 1048,2041.311 1048,2038L1048,1988C1048,1984.689 1050.689,1982 1054,1982L1168,1982C1171.311,1982 1174,1984.689 1174,1988Z" style="fill:none;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1316,1988L1316,2038C1316,2041.311 1313.311,2044 1310,2044L1196,2044C1192.689,2044 1190,2041.311 1190,2038L1190,1988C1190,1984.689 1192.689,1982 1196,1982L1310,1982C1313.311,1982 1316,1984.689 1316,1988Z" style="fill:none;stroke:black;stroke-width:0.6px;stroke-dasharray:3,4;"/>
+        <path d="M1210,1804L1210,1948C1210,1956.831 1202.831,1964 1194,1964L886,1964C877.169,1964 870,1956.831 870,1948L870,1804C870,1795.169 877.169,1788 886,1788L1194,1788C1202.831,1788 1210,1795.169 1210,1804Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <g transform="matrix(1,0,0,1,1040,1852)">
+            <text x="-81.371px" y="0px" style="font-family:'Helvetica';font-size:16px;">Delete “Neon portrait”?</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1040,1876)">
+            <text x="-90.796px" y="0px" style="font-family:'Helvetica';font-size:11px;">This permanently removes the photo,</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1040,1892)">
+            <text x="-78.574px" y="0px" style="font-family:'Helvetica';font-size:11px;">its coaching notes and matches.</text>
+        </g>
+        <path d="M1030,1930C1030,1937.727 1023.727,1944 1016,1944L914,1944C906.273,1944 900,1937.727 900,1930C900,1922.273 906.273,1916 914,1916L1016,1916C1023.727,1916 1030,1922.273 1030,1930Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,965,1934)">
+            <text x="-17.12px" y="0px" style="font-family:'Helvetica';font-size:11px;">Cancel</text>
+        </g>
+        <path d="M1180,1930C1180,1937.727 1173.727,1944 1166,1944L1064,1944C1056.273,1944 1050,1937.727 1050,1930C1050,1922.273 1056.273,1916 1064,1916L1166,1916C1173.727,1916 1180,1922.273 1180,1930Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1115,1934)">
+            <text x="-15.898px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Delete</text>
+        </g>
+        <circle cx="1176" cy="1917" r="10.5" style="fill:white;"/>
+        <circle cx="1176" cy="1917" r="9"/>
+        <g transform="matrix(1,0,0,1,1176,1920.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">D</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1400,1606)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Boards (list)</text>
+        </g>
+        <path d="M2000,1634L2000,2066C2000,2073.727 1993.727,2080 1986,2080L1414,2080C1406.273,2080 1400,2073.727 1400,2066L1400,1634C1400,1626.273 1406.273,1620 1414,1620L1986,1620C1993.727,1620 2000,1626.273 2000,1634Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="1420" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1436" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1452" cy="1638" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1830,1638C1830,1643.519 1825.519,1648 1820,1648L1580,1648C1574.481,1648 1570,1643.519 1570,1638C1570,1632.481 1574.481,1628 1580,1628L1820,1628C1825.519,1628 1830,1632.481 1830,1638Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1700,1642)">
+            <text x="-24.082px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/boards/</text>
+        </g>
+        <path d="M1400,1656L2000,1656" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1684)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1918.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1860,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+            <rect x="0" y="0.833" width="34.853" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1788.8,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1730.4,1683)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1964" cy="1679" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1964,1683)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M1400,1702L2000,1702" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1744)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">Boards</text>
+        </g>
+        <circle cx="1519.2" cy="1736.08" r="9"/>
+        <g transform="matrix(1,0,0,1,1519.2,1739.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <path d="M1976,1737C1976,1744.727 1969.727,1751 1962,1751L1890,1751C1882.273,1751 1876,1744.727 1876,1737C1876,1729.273 1882.273,1723 1890,1723L1962,1723C1969.727,1723 1976,1729.273 1976,1737Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1926,1741)">
+            <text x="-31.947px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">+ New Board</text>
+        </g>
+        <circle cx="1972" cy="1724" r="10.5" style="fill:white;"/>
+        <circle cx="1972" cy="1724" r="9"/>
+        <g transform="matrix(1,0,0,1,1972,1727.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <path d="M1510,1768L1510,1804C1510,1807.311 1507.311,1810 1504,1810L1430,1810C1426.689,1810 1424,1807.311 1424,1804L1424,1768C1424,1764.689 1426.689,1762 1430,1762L1504,1762C1507.311,1762 1510,1764.689 1510,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1450.1,1796.6L1461.7,1783.9L1468.1,1790.2L1475.4,1779.7L1483.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1457.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1600,1768L1600,1804C1600,1807.311 1597.311,1810 1594,1810L1520,1810C1516.689,1810 1514,1807.311 1514,1804L1514,1768C1514,1764.689 1516.689,1762 1520,1762L1594,1762C1597.311,1762 1600,1764.689 1600,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1540.1,1796.6L1551.7,1783.9L1558.1,1790.2L1565.4,1779.7L1573.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1547.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1510,1820L1510,1856C1510,1859.311 1507.311,1862 1504,1862L1430,1862C1426.689,1862 1424,1859.311 1424,1856L1424,1820C1424,1816.689 1426.689,1814 1430,1814L1504,1814C1507.311,1814 1510,1816.689 1510,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1450.1,1848.6L1461.7,1835.9L1468.1,1842.2L1475.4,1831.7L1483.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1457.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1600,1820L1600,1856C1600,1859.311 1597.311,1862 1594,1862L1520,1862C1516.689,1862 1514,1859.311 1514,1856L1514,1820C1514,1816.689 1516.689,1814 1520,1814L1594,1814C1597.311,1814 1600,1816.689 1600,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1540.1,1848.6L1551.7,1835.9L1558.1,1842.2L1565.4,1831.7L1573.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1547.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,1882)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Downtown neon shoot</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,1896)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Shoot Nov 21 · 12 refs</text>
+        </g>
+        <path d="M1698,1768L1698,1804C1698,1807.311 1695.311,1810 1692,1810L1618,1810C1614.689,1810 1612,1807.311 1612,1804L1612,1768C1612,1764.689 1614.689,1762 1618,1762L1692,1762C1695.311,1762 1698,1764.689 1698,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1638.1,1796.6L1649.7,1783.9L1656.1,1790.2L1663.4,1779.7L1671.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1645.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1788,1768L1788,1804C1788,1807.311 1785.311,1810 1782,1810L1708,1810C1704.689,1810 1702,1807.311 1702,1804L1702,1768C1702,1764.689 1704.689,1762 1708,1762L1782,1762C1785.311,1762 1788,1764.689 1788,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1728.1,1796.6L1739.7,1783.9L1746.1,1790.2L1753.4,1779.7L1761.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1735.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1698,1820L1698,1856C1698,1859.311 1695.311,1862 1692,1862L1618,1862C1614.689,1862 1612,1859.311 1612,1856L1612,1820C1612,1816.689 1614.689,1814 1618,1814L1692,1814C1695.311,1814 1698,1816.689 1698,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1638.1,1848.6L1649.7,1835.9L1656.1,1842.2L1663.4,1831.7L1671.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1645.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1788,1820L1788,1856C1788,1859.311 1785.311,1862 1782,1862L1708,1862C1704.689,1862 1702,1859.311 1702,1856L1702,1820C1702,1816.689 1704.689,1814 1708,1814L1782,1814C1785.311,1814 1788,1816.689 1788,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1728.1,1848.6L1739.7,1835.9L1746.1,1842.2L1753.4,1831.7L1761.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1735.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1612,1882)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Golden hour portraits</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1612,1896)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Shoot Dec 3 · 8 refs</text>
+        </g>
+        <path d="M1886,1768L1886,1804C1886,1807.311 1883.311,1810 1880,1810L1806,1810C1802.689,1810 1800,1807.311 1800,1804L1800,1768C1800,1764.689 1802.689,1762 1806,1762L1880,1762C1883.311,1762 1886,1764.689 1886,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1826.1,1796.6L1837.7,1783.9L1844.1,1790.2L1851.4,1779.7L1859.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1833.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1976,1768L1976,1804C1976,1807.311 1973.311,1810 1970,1810L1896,1810C1892.689,1810 1890,1807.311 1890,1804L1890,1768C1890,1764.689 1892.689,1762 1896,1762L1970,1762C1973.311,1762 1976,1764.689 1976,1768Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1916.1,1796.6L1927.7,1783.9L1934.1,1790.2L1941.4,1779.7L1949.9,1796.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1923.496" cy="1777.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1886,1820L1886,1856C1886,1859.311 1883.311,1862 1880,1862L1806,1862C1802.689,1862 1800,1859.311 1800,1856L1800,1820C1800,1816.689 1802.689,1814 1806,1814L1880,1814C1883.311,1814 1886,1816.689 1886,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1826.1,1848.6L1837.7,1835.9L1844.1,1842.2L1851.4,1831.7L1859.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1833.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1976,1820L1976,1856C1976,1859.311 1973.311,1862 1970,1862L1896,1862C1892.689,1862 1890,1859.311 1890,1856L1890,1820C1890,1816.689 1892.689,1814 1896,1814L1970,1814C1973.311,1814 1976,1816.689 1976,1820Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1916.1,1848.6L1927.7,1835.9L1934.1,1842.2L1941.4,1831.7L1949.9,1848.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1923.496" cy="1829.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1800,1882)">
+            <g transform="matrix(11,0,0,11,28.128418,0)">
+            </g>
+            <g transform="matrix(11,0,0,11,31.18457,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Food ﬂat lays</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1800,1896)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">No date · 15 refs</text>
+        </g>
+        <path d="M1510,1920L1510,1956C1510,1959.311 1507.311,1962 1504,1962L1430,1962C1426.689,1962 1424,1959.311 1424,1956L1424,1920C1424,1916.689 1426.689,1914 1430,1914L1504,1914C1507.311,1914 1510,1916.689 1510,1920Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1450.1,1948.6L1461.7,1935.9L1468.1,1942.2L1475.4,1931.7L1483.9,1948.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1457.496" cy="1929.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1600,1920L1600,1956C1600,1959.311 1597.311,1962 1594,1962L1520,1962C1516.689,1962 1514,1959.311 1514,1956L1514,1920C1514,1916.689 1516.689,1914 1520,1914L1594,1914C1597.311,1914 1600,1916.689 1600,1920Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1540.1,1948.6L1551.7,1935.9L1558.1,1942.2L1565.4,1931.7L1573.9,1948.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1547.496" cy="1929.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1510,1972L1510,2008C1510,2011.311 1507.311,2014 1504,2014L1430,2014C1426.689,2014 1424,2011.311 1424,2008L1424,1972C1424,1968.689 1426.689,1966 1430,1966L1504,1966C1507.311,1966 1510,1968.689 1510,1972Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1450.1,2000.6L1461.7,1987.9L1468.1,1994.2L1475.4,1983.7L1483.9,2000.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1457.496" cy="1981.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1600,1972L1600,2008C1600,2011.311 1597.311,2014 1594,2014L1520,2014C1516.689,2014 1514,2011.311 1514,2008L1514,1972C1514,1968.689 1516.689,1966 1520,1966L1594,1966C1597.311,1966 1600,1968.689 1600,1972Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1540.1,2000.6L1551.7,1987.9L1558.1,1994.2L1565.4,1983.7L1573.9,2000.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1547.496" cy="1981.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,2034)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Rainy day street</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,2048)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">No date · 6 refs</text>
+        </g>
+        <path d="M1698,1920L1698,1956C1698,1959.311 1695.311,1962 1692,1962L1618,1962C1614.689,1962 1612,1959.311 1612,1956L1612,1920C1612,1916.689 1614.689,1914 1618,1914L1692,1914C1695.311,1914 1698,1916.689 1698,1920Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1638.1,1948.6L1649.7,1935.9L1656.1,1942.2L1663.4,1931.7L1671.9,1948.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1645.496" cy="1929.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1788,1920L1788,1956C1788,1959.311 1785.311,1962 1782,1962L1708,1962C1704.689,1962 1702,1959.311 1702,1956L1702,1920C1702,1916.689 1704.689,1914 1708,1914L1782,1914C1785.311,1914 1788,1916.689 1788,1920Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1728.1,1948.6L1739.7,1935.9L1746.1,1942.2L1753.4,1931.7L1761.9,1948.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1735.496" cy="1929.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1698,1972L1698,2008C1698,2011.311 1695.311,2014 1692,2014L1618,2014C1614.689,2014 1612,2011.311 1612,2008L1612,1972C1612,1968.689 1614.689,1966 1618,1966L1692,1966C1695.311,1966 1698,1968.689 1698,1972Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1638.1,2000.6L1649.7,1987.9L1656.1,1994.2L1663.4,1983.7L1671.9,2000.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1645.496" cy="1981.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1788,1972L1788,2008C1788,2011.311 1785.311,2014 1782,2014L1708,2014C1704.689,2014 1702,2011.311 1702,2008L1702,1972C1702,1968.689 1704.689,1966 1708,1966L1782,1966C1785.311,1966 1788,1968.689 1788,1972Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M1728.1,2000.6L1739.7,1987.9L1746.1,1994.2L1753.4,1983.7L1761.9,2000.6" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="1735.496" cy="1981.552" r="2.957" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1612,2034)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Winter landscapes</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1612,2048)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;">Shoot Jan 10 · 9 refs</text>
+        </g>
+        <path d="M1976,1924L1976,2004C1976,2009.519 1971.519,2014 1966,2014L1810,2014C1804.481,2014 1800,2009.519 1800,2004L1800,1924C1800,1918.481 1804.481,1914 1810,1914L1966,1914C1971.519,1914 1976,1918.481 1976,1924Z" style="fill:none;stroke:black;stroke-width:1px;stroke-dasharray:5,4;"/>
+        <g transform="matrix(1,0,0,1,1888,1968)">
+            <text x="-31.338px" y="0px" style="font-family:'Helvetica';font-size:11px;">+ New board</text>
+        </g>
+        <g transform="matrix(1,0,0,1,80,2186)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Board detail + bulk remove</text>
+        </g>
+        <path d="M680,2214L680,2646C680,2653.727 673.727,2660 666,2660L94,2660C86.273,2660 80,2653.727 80,2646L80,2214C80,2206.273 86.273,2200 94,2200L666,2200C673.727,2200 680,2206.273 680,2214Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="100" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="116" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="132" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M510,2218C510,2223.519 505.519,2228 500,2228L260,2228C254.481,2228 250,2223.519 250,2218C250,2212.481 254.481,2208 260,2208L500,2208C505.519,2208 510,2212.481 510,2218Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,380,2222)">
+            <text x="-30.103px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/boards/7/</text>
+        </g>
+        <path d="M80,2236L680,2236" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,2264)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,598.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,540,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+            <rect x="0" y="0.833" width="34.853" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,468.8,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,410.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="644" cy="2259" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,644,2263)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M80,2282L680,2282" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,104,2304)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">‹ Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,104,2330)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:20px;">Downtown neon shoot</text>
+        </g>
+        <circle cx="348" cy="2322.8" r="9"/>
+        <g transform="matrix(1,0,0,1,348,2326.3)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(1,0,0,1,104,2348)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Shoot Nov 21 · Main St. · 12 references</text>
+        </g>
+        <g transform="matrix(1,0,0,1,104,2366)">
+            <g transform="matrix(10,0,0,10,249.570312,0)">
+            </g>
+            <g transform="matrix(10,0,0,10,252.348633,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Night portraits with neon signs. Bring the 50mm and a reﬂector<tspan x="276.255px " y="0px ">.</tspan></text>
+        </g>
+        <path d="M566,2326C566,2333.727 559.727,2340 552,2340L510,2340C502.273,2340 496,2333.727 496,2326C496,2318.273 502.273,2312 510,2312L552,2312C559.727,2312 566,2318.273 566,2326Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,531,2330)">
+            <text x="-9.477px" y="0px" style="font-family:'Helvetica';font-size:11px;">Edit</text>
+        </g>
+        <circle cx="562" cy="2313" r="10.5" style="fill:white;"/>
+        <circle cx="562" cy="2313" r="9"/>
+        <g transform="matrix(1,0,0,1,562,2316.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <path d="M656,2326C656,2333.727 649.727,2340 642,2340L600,2340C592.273,2340 586,2333.727 586,2326C586,2318.273 592.273,2312 600,2312L642,2312C649.727,2312 656,2318.273 656,2326Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,621,2330)">
+            <text x="-15.898px" y="0px" style="font-family:'Helvetica';font-size:11px;">Delete</text>
+        </g>
+        <circle cx="652" cy="2313" r="10.5" style="fill:white;"/>
+        <circle cx="652" cy="2313" r="9"/>
+        <g transform="matrix(1,0,0,1,652,2316.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">D</text>
+        </g>
+        <path d="M324,2392L324,2404C324,2408.415 320.415,2412 316,2412L112,2412C107.585,2412 104,2408.415 104,2404L104,2392C104,2387.585 107.585,2384 112,2384L316,2384C320.415,2384 324,2387.585 324,2392Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,116,2402)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search this board</text>
+        </g>
+        <g transform="matrix(1,0,0,1,554,2402)">
+            <text x="-45.586px" y="0px" style="font-family:'Helvetica';font-size:10px;">2 selected</text>
+        </g>
+        <path d="M656,2398C656,2405.727 649.727,2412 642,2412L580,2412C572.273,2412 566,2405.727 566,2398C566,2390.273 572.273,2384 580,2384L642,2384C649.727,2384 656,2390.273 656,2398Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,611,2402)">
+            <text x="-20.48px" y="0px" style="font-family:'Helvetica';font-size:11px;">Remove</text>
+        </g>
+        <circle cx="652" cy="2385" r="10.5" style="fill:white;"/>
+        <circle cx="652" cy="2385" r="9"/>
+        <g transform="matrix(1,0,0,1,652,2388.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">D</text>
+        </g>
+        <path d="M230,2432L230,2512C230,2515.311 227.311,2518 224,2518L110,2518C106.689,2518 104,2515.311 104,2512L104,2432C104,2428.689 106.689,2426 110,2426L224,2426C227.311,2426 230,2428.689 230,2432Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M134.6,2492.2L156.9,2468L169,2480.1L183.2,2459.9L199.4,2492.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="148.784" cy="2455.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M124,2437L124,2443C124,2444.656 122.656,2446 121,2446L115,2446C113.344,2446 112,2444.656 112,2443L112,2437C112,2435.344 113.344,2434 115,2434L121,2434C122.656,2434 124,2435.344 124,2437Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M372,2432L372,2512C372,2515.311 369.311,2518 366,2518L252,2518C248.689,2518 246,2515.311 246,2512L246,2432C246,2428.689 248.689,2426 252,2426L366,2426C369.311,2426 372,2428.689 372,2432Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M276.6,2492.2L298.9,2468L311,2480.1L325.2,2459.9L341.4,2492.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="290.784" cy="2455.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M266,2437L266,2443C266,2444.656 264.656,2446 263,2446L257,2446C255.344,2446 254,2444.656 254,2443L254,2437C254,2435.344 255.344,2434 257,2434L263,2434C264.656,2434 266,2435.344 266,2437Z" style="stroke:black;stroke-width:1px;"/>
+        <path d="M257,2440L259.5,2442.5L263.5,2437.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.6px;stroke-linecap:round;"/>
+        <path d="M514,2432L514,2512C514,2515.311 511.311,2518 508,2518L394,2518C390.689,2518 388,2515.311 388,2512L388,2432C388,2428.689 390.689,2426 394,2426L508,2426C511.311,2426 514,2428.689 514,2432Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M418.6,2492.2L440.9,2468L453,2480.1L467.2,2459.9L483.4,2492.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="432.784" cy="2455.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M408,2437L408,2443C408,2444.656 406.656,2446 405,2446L399,2446C397.344,2446 396,2444.656 396,2443L396,2437C396,2435.344 397.344,2434 399,2434L405,2434C406.656,2434 408,2435.344 408,2437Z" style="stroke:black;stroke-width:1px;"/>
+        <path d="M399,2440L401.5,2442.5L405.5,2437.5" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1.6px;stroke-linecap:round;"/>
+        <path d="M656,2432L656,2512C656,2515.311 653.311,2518 650,2518L536,2518C532.689,2518 530,2515.311 530,2512L530,2432C530,2428.689 532.689,2426 536,2426L650,2426C653.311,2426 656,2428.689 656,2432Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M560.6,2492.2L582.9,2468L595,2480.1L609.2,2459.9L625.4,2492.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="574.784" cy="2455.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M550,2437L550,2443C550,2444.656 548.656,2446 547,2446L541,2446C539.344,2446 538,2444.656 538,2443L538,2437C538,2435.344 539.344,2434 541,2434L547,2434C548.656,2434 550,2435.344 550,2437Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M230,2538L230,2618C230,2621.311 227.311,2624 224,2624L110,2624C106.689,2624 104,2621.311 104,2618L104,2538C104,2534.689 106.689,2532 110,2532L224,2532C227.311,2532 230,2534.689 230,2538Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M134.6,2598.2L156.9,2574L169,2586.1L183.2,2565.9L199.4,2598.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="148.784" cy="2561.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M124,2543L124,2549C124,2550.656 122.656,2552 121,2552L115,2552C113.344,2552 112,2550.656 112,2549L112,2543C112,2541.344 113.344,2540 115,2540L121,2540C122.656,2540 124,2541.344 124,2543Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M372,2538L372,2618C372,2621.311 369.311,2624 366,2624L252,2624C248.689,2624 246,2621.311 246,2618L246,2538C246,2534.689 248.689,2532 252,2532L366,2532C369.311,2532 372,2534.689 372,2538Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M276.6,2598.2L298.9,2574L311,2586.1L325.2,2565.9L341.4,2598.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="290.784" cy="2561.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M266,2543L266,2549C266,2550.656 264.656,2552 263,2552L257,2552C255.344,2552 254,2550.656 254,2549L254,2543C254,2541.344 255.344,2540 257,2540L263,2540C264.656,2540 266,2541.344 266,2543Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M514,2538L514,2618C514,2621.311 511.311,2624 508,2624L394,2624C390.689,2624 388,2621.311 388,2618L388,2538C388,2534.689 390.689,2532 394,2532L508,2532C511.311,2532 514,2534.689 514,2538Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M418.6,2598.2L440.9,2574L453,2586.1L467.2,2565.9L483.4,2598.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="432.784" cy="2561.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M408,2543L408,2549C408,2550.656 406.656,2552 405,2552L399,2552C397.344,2552 396,2550.656 396,2549L396,2543C396,2541.344 397.344,2540 399,2540L405,2540C406.656,2540 408,2541.344 408,2543Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M656,2538L656,2618C656,2621.311 653.311,2624 650,2624L536,2624C532.689,2624 530,2621.311 530,2618L530,2538C530,2534.689 532.689,2532 536,2532L650,2532C653.311,2532 656,2534.689 656,2538Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <path d="M560.6,2598.2L582.9,2574L595,2586.1L609.2,2565.9L625.4,2598.2" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+        <circle cx="574.784" cy="2561.808" r="5.667" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M550,2543L550,2549C550,2550.656 548.656,2552 547,2552L541,2552C539.344,2552 538,2550.656 538,2549L538,2543C538,2541.344 539.344,2540 541,2540L547,2540C548.656,2540 550,2541.344 550,2543Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,740,2186)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">New / Edit Board</text>
+        </g>
+        <path d="M1340,2214L1340,2646C1340,2653.727 1333.727,2660 1326,2660L754,2660C746.273,2660 740,2653.727 740,2646L740,2214C740,2206.273 746.273,2200 754,2200L1326,2200C1333.727,2200 1340,2206.273 1340,2214Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="760" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="776" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="792" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1170,2218C1170,2223.519 1165.519,2228 1160,2228L920,2228C914.481,2228 910,2223.519 910,2218C910,2212.481 914.481,2208 920,2208L1160,2208C1165.519,2208 1170,2212.481 1170,2218Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1040,2222)">
+            <text x="-96.328px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/boards/new/  ·  /boards/7/edit/</text>
+        </g>
+        <path d="M740,2236L1340,2236" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,2264)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1258.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1200,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+            <rect x="0" y="0.833" width="34.853" height="0.542"/>
+        </g>
+        <g transform="matrix(1,0,0,1,1128.8,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1070.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1304" cy="2259" r="11" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1304,2263)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;">A</text>
+        </g>
+        <path d="M740,2282L1340,2282" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,764,2324)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:22px;">New Board</text>
+        </g>
+        <circle cx="898.8" cy="2316.08" r="9"/>
+        <g transform="matrix(1,0,0,1,898.8,2319.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">C</text>
+        </g>
+        <circle cx="920.8" cy="2316.08" r="9"/>
+        <g transform="matrix(1,0,0,1,920.8,2319.58)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,2356)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Name</text>
+        </g>
+        <path d="M1316,2370L1316,2384C1316,2388.415 1312.415,2392 1308,2392L772,2392C767.585,2392 764,2388.415 764,2384L764,2370C764,2365.585 767.585,2362 772,2362L1308,2362C1312.415,2362 1316,2365.585 1316,2370Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,776,2381)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Downtown neon shoot</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,2414)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Shoot date (optional)</text>
+        </g>
+        <path d="M1032,2428L1032,2442C1032,2446.415 1028.415,2450 1024,2450L772,2450C767.585,2450 764,2446.415 764,2442L764,2428C764,2423.585 767.585,2420 772,2420L1024,2420C1028.415,2420 1032,2423.585 1032,2428Z" style="fill:white;stroke:black;stroke-width:2px;"/>
+        <g transform="matrix(1,0,0,1,776,2439)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">10 / 02 / 2026</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1048,2414)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Location (optional)</text>
+        </g>
+        <path d="M1316,2428L1316,2442C1316,2446.415 1312.415,2450 1308,2450L1056,2450C1051.585,2450 1048,2446.415 1048,2442L1048,2428C1048,2423.585 1051.585,2420 1056,2420L1308,2420C1312.415,2420 1316,2423.585 1316,2428Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1060,2439)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Main St.</text>
+        </g>
+        <g transform="matrix(1,0,0,1,764,2496)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Description</text>
+        </g>
+        <path d="M1316,2510L1316,2564C1316,2568.415 1312.415,2572 1308,2572L772,2572C767.585,2572 764,2568.415 764,2564L764,2510C764,2505.585 767.585,2502 772,2502L1308,2502C1312.415,2502 1316,2505.585 1316,2510Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,776,2522)">
+            <g transform="matrix(11,0,0,11,274.527344,0)">
+            </g>
+            <g transform="matrix(11,0,0,11,277.583496,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Night portraits with neon signs. Bring the 50mm and a reﬂector<tspan x="303.88px " y="0px ">.</tspan></text>
+        </g>
+        <path d="M1186,2628C1186,2635.727 1179.727,2642 1172,2642L1110,2642C1102.273,2642 1096,2635.727 1096,2628C1096,2620.273 1102.273,2614 1110,2614L1172,2614C1179.727,2614 1186,2620.273 1186,2628Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1141,2632)">
+            <text x="-17.12px" y="0px" style="font-family:'Helvetica';font-size:11px;">Cancel</text>
+        </g>
+        <path d="M1316,2628C1316,2635.727 1309.727,2642 1302,2642L1210,2642C1202.273,2642 1196,2635.727 1196,2628C1196,2620.273 1202.273,2614 1210,2614L1302,2614C1309.727,2614 1316,2620.273 1316,2628Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1256,2632)">
+            <text x="-28.131px" y="0px" style="font-family:'Helvetica';font-size:11px;fill:white;">Save board</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1400,2186)">
+            <g transform="matrix(15,0,0,15,23.342285,0)">
+            </g>
+            <g transform="matrix(15,0,0,15,27.509766,0)">
+            </g>
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">Proﬁle (view + edit)</text>
+        </g>
+        <path d="M2000,2214L2000,2646C2000,2653.727 1993.727,2660 1986,2660L1414,2660C1406.273,2660 1400,2653.727 1400,2646L1400,2214C1400,2206.273 1406.273,2200 1414,2200L1986,2200C1993.727,2200 2000,2206.273 2000,2214Z" style="fill:white;stroke:black;stroke-width:1.5px;"/>
+        <circle cx="1420" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1436" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <circle cx="1452" cy="2218" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <path d="M1830,2218C1830,2223.519 1825.519,2228 1820,2228L1580,2228C1574.481,2228 1570,2223.519 1570,2218C1570,2212.481 1574.481,2208 1580,2208L1820,2208C1825.519,2208 1830,2212.481 1830,2218Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1700,2222)">
+            <g transform="matrix(10,0,0,10,-54.18457,0)">
+            </g>
+            <g transform="matrix(10,0,0,10,-51.174316,0)">
+            </g>
+            <g transform="matrix(10,0,0,10,24.082031,0)">
+            </g>
+            <g transform="matrix(10,0,0,10,27.092285,0)">
+            </g>
+            <text x="-78.267px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:10px;">/proﬁle/  ·  /proﬁle/edit/</text>
+        </g>
+        <path d="M1400,2236L2000,2236" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,2264)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:15px;">ShotCoach</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1918.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Help</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1860,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Boards</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1788.8,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">My Shots</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1730.4,2263)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Search</text>
+        </g>
+        <circle cx="1964" cy="2259" r="11" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1964,2263)">
+            <text x="-3.335px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">A</text>
+        </g>
+        <path d="M1400,2282L2000,2282" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <circle cx="1464" cy="2332" r="32" style="fill:none;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1464,2340)">
+            <text x="-7.337px" y="0px" style="font-family:'Helvetica';font-size:22px;">A</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1512,2328)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:18px;">Alex Grant</text>
+        </g>
+        <circle cx="1636" cy="2321.52" r="9"/>
+        <g transform="matrix(1,0,0,1,1636,2325.02)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">R</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1512,2346)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:10px;">Joined Oct 2026 · 12 shots · 5 boards</text>
+        </g>
+        <path d="M1976,2330C1976,2337.727 1969.727,2344 1962,2344L1880,2344C1872.273,2344 1866,2337.727 1866,2330C1866,2322.273 1872.273,2316 1880,2316L1962,2316C1969.727,2316 1976,2322.273 1976,2330Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1921,2334)">
+            <g transform="matrix(11,0,0,11,11.923828,0)">
+            </g>
+            <g transform="matrix(11,0,0,11,14.97998,0)">
+            </g>
+            <text x="-25.985px" y="0px" style="font-family:'Helvetica';font-size:11px;">Edit proﬁle</text>
+        </g>
+        <circle cx="1972" cy="2317" r="10.5" style="fill:white;"/>
+        <circle cx="1972" cy="2317" r="9"/>
+        <g transform="matrix(1,0,0,1,1972,2320.5)">
+            <text x="-3.611px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">U</text>
+        </g>
+        <path d="M1424,2384L1976,2384" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1424,2420)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Skill level</text>
+        </g>
+        <path d="M1880,2416C1880,2423.727 1873.727,2430 1866,2430L1594,2430C1586.273,2430 1580,2423.727 1580,2416C1580,2408.273 1586.273,2402 1594,2402L1866,2402C1873.727,2402 1880,2408.273 1880,2416Z" style="fill:white;stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1630,2420)">
+            <text x="-20.015px" y="0px" style="font-family:'Helvetica';font-size:10px;">Beginner</text>
+        </g>
+        <path d="M1778,2416C1778,2422.623 1772.623,2428 1766,2428L1694,2428C1687.377,2428 1682,2422.623 1682,2416C1682,2409.377 1687.377,2404 1694,2404L1766,2404C1772.623,2404 1778,2409.377 1778,2416Z" style="stroke:black;stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,1730,2420)">
+            <text x="-27.793px" y="0px" style="font-family:'Helvetica';font-size:10px;fill:white;">Intermediate</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1830,2420)">
+            <text x="-22.239px" y="0px" style="font-family:'Helvetica';font-size:10px;">Advanced</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1424,2470)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Camera</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1580,2470)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">iPhone 15 Pro</text>
+        </g>
+        <path d="M1424,2486L1976,2486" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,1424,2512)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Lenses</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1580,2512)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Main 24mm, <tspan x="63.379px 68.879px 74.997px " y="0px 0px 0px ">Tel</tspan>ephoto 77mm</text>
+        </g>
+        <path d="M1424,2528L1976,2528" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,1424,2554)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Favorite styles</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1580,2554)">
+            <text x="0px" y="0px" style="font-family:'Helvetica';font-size:11px;">Portrait, Street, Night</text>
+        </g>
+        <path d="M1424,2570L1976,2570" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.5px;"/>
+        <g transform="matrix(1,0,0,1,1700,2630)">
+            <text x="-137.954px" y="0px" style="font-family:'Helvetica';font-size:10px;">Y<tspan x="-132.202px -126.641px " y="0px 0px ">ou</tspan>r gear and skill level are used to personalize coaching tips.</text>
+        </g>
+    </g>
+</svg>
