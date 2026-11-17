@@ -228,3 +228,6 @@ __marimo__/
 
 # Python virtual environment
 .venv/
+
+# User-uploaded photos
+media/
