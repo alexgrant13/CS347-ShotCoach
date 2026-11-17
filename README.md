@@ -62,44 +62,44 @@ Solo project goal: an **A**, meaning all Basic claims, 8 Intermediate claims, an
 
 ### Basic (all)
 
-| Claim | How ShotCoach meets it |
-| --- | --- |
-| B10 Front page | Landing page with idea search and how-it-works steps (`/`) |
-| B20 Navigation | Shared nav bar in the base template on every page |
-| B30 Django admin | All models registered in `/admin/` |
-| B40 3 distinct models | Profile, Shot, Critique, Reference, ShotMatch, Board |
-| B50 Database persistence | All data stored with the Django ORM |
-| B60 404 handling | Custom 404 page in the site's style |
-| B70 Relationships | ForeignKeys, OneToOne (Profile), ManyToMany (Boards, ShotMatch) |
-| B80 URL routing | Readable URLs such as `/shots/42/edit/` and `/boards/7/` |
-| B90 Templates | All pages rendered with Django templates |
-| B100 Template inheritance | `base.html` extended by every page |
-| B110 Consistent styling | One black-and-white stylesheet across all pages |
-| B120 Styled forms | Labeled, styled upload, shot, board, and profile forms |
-| B121 Automated a11y | Pages pass WAVE checks (alt text, labels, contrast) |
-| B130–B160 CRUD | Full CRUD for Shots and Boards |
-| B170 Login/logout | Django authentication |
-| B180 Enforced authentication | Shots, Boards, and Profile require login |
-| B190 Security | `{% csrf_token %}` on all forms, CSRF middleware enabled |
+| Status | Claim | How ShotCoach meets it |
+| --- | --- | --- |
+|  | B10 Front page | Landing page with idea search and how-it-works steps (`/`) |
+|  | B20 Navigation | Shared nav bar in the base template on every page |
+| **Done** | B30 Django admin | All models registered in `/admin/` |
+| **Done** | B40 3 distinct models | Profile, Shot, Critique, Reference, ShotMatch, Board |
+| **Done** | B50 Database persistence | All data stored with the Django ORM |
+|  | B60 404 handling | Custom 404 page in the site's style |
+|  | B70 Relationships | ForeignKeys, OneToOne (Profile), ManyToMany (Boards, ShotMatch) |
+|  | B80 URL routing | Readable URLs such as `/shots/42/edit/` and `/boards/7/` |
+| **Done** | B90 Templates | All pages rendered with Django templates |
+| **Done** | B100 Template inheritance | `base.html` extended by every page |
+|  | B110 Consistent styling | One black-and-white stylesheet across all pages |
+|  | B120 Styled forms | Labeled, styled upload, shot, board, and profile forms |
+|  | B121 Automated a11y | Pages pass WAVE checks (alt text, labels, contrast) |
+|  | B130–B160 CRUD | Full CRUD for Shots and Boards |
+|  | B170 Login/logout | Django authentication |
+|  | B180 Enforced authentication | Shots, Boards, and Profile require login |
+|  | B190 Security | `{% csrf_token %}` on all forms, CSRF middleware enabled |
 
 ### Intermediate (8)
 
-| Claim | How ShotCoach meets it |
-| --- | --- |
-| I10 File uploads | Users upload their photos to create Shots |
-| I20 Search | Idea search through Pexels, plus search/filter over the user's own shots and boards |
-| I30 User profiles | Editable profile with gear and skill level, used in the coaching prompt |
-| I40 Pagination | Search results, My Shots, and coaching history |
-| I50 Input validation | Upload type/size checks, required titles, no shoot dates in the past |
-| I70 External API | Pexels API for reference photos |
-| I90 Mobile-responsive | Layout works at 375px so users can upload from their phones |
-| I180 Logging | Logs LLM/API calls, latency, and failures |
+| Status | Claim | How ShotCoach meets it |
+| --- | --- | --- |
+|  | I10 File uploads | Users upload their photos to create Shots |
+|  | I20 Search | Idea search through Pexels, plus search/filter over the user's own shots and boards |
+|  | I30 User profiles | Editable profile with gear and skill level, used in the coaching prompt |
+|  | I40 Pagination | Search results, My Shots, and coaching history |
+|  | I50 Input validation | Upload type/size checks, required titles, no shoot dates in the past |
+|  | I70 External API | Pexels API for reference photos |
+|  | I90 Mobile-responsive | Layout works at 375px so users can upload from their phones |
+|  | I180 Logging | Logs LLM/API calls, latency, and failures |
 
 **Backups / extra +10s:** I150 bulk remove on boards, I60 export a board as a shot list (CSV/JSON), I130 charts of progress or settings over time, I100 in-app camera basics help page.
 
 ### Stretch
 
-| Claim | How ShotCoach meets it |
-| --- | --- |
-| **S110 LLM integration** (A claim) | Vision LLM analyzes photos, generates search keywords, and writes coaching tips |
-| **S100 ML integration** (+50 second Stretch) | CLIP image embeddings re-rank references by visual similarity |
+| Status | Claim | How ShotCoach meets it |
+| --- | --- | --- |
+|  | **S110 LLM integration** (A claim) | Vision LLM analyzes photos, generates search keywords, and writes coaching tips |
+|  | **S100 ML integration** (+50 second Stretch) | CLIP image embeddings re-rank references by visual similarity |
