@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}ShotCoach{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'catalog/css/styles.css' %}">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="{% url 'index' %}">ShotCoach</a>
+      <ul class="nav-links">
+        <li><a href="{% url 'index' %}">Home</a></li>
+        {% if user.is_staff %}<li><a href="{% url 'admin:index' %}">Admin</a></li>{% endif %}
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <p>Reference photos provided by <a href="https://www.pexels.com">Pexels</a>.</p>
+  </footer>
+</body>
+</html>

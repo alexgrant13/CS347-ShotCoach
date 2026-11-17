@@ -1,0 +1,27 @@
+{% extends "catalog/base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Shoot. Learn. Repeat.</h1>
+  <p>Describe a shot or upload one. Get professional references and coaching.</p>
+</section>
+
+<!-- <section class="stats" aria-label="ShotCoach so far">
+  <div class="stat"><span class="stat-number">{{ num_shots }}</span> Shots</div>
+  <div class="stat"><span class="stat-number">{{ num_boards }}</span> Boards</div>
+  <div class="stat"><span class="stat-number">{{ num_references }}</span> References</div>
+</section> -->
+<section class="hero">
+  <input type="file" id="text-upload" accept=".jpg, .jpeg, .png" hidden />
+  <label for="text-upload" class="upload-text">upload your own photo...</label>
+</section>
+
+<section class="steps">
+  <h2>How it works</h2>
+  <ol>
+    <li>Describe or upload a photo</li>
+    <li>Compare it with professional shots</li>
+    <li>Get coached on what to change</li>
+  </ol>
+</section>
+{% endblock %}
