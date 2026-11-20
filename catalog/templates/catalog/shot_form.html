@@ -1,0 +1,15 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}New Shot · ShotCoach{% endblock %}
+
+{% block content %}
+<h1>New Shot</h1>
+<form method="post" enctype="multipart/form-data" class="form">
+  {% csrf_token %}
+  {{ form.as_div }}
+  <div class="form-actions">
+    <a href="{% url 'index' %}" class="button">Cancel</a>
+    <button type="submit" class="button button-primary">Upload</button>
+  </div>
+</form>
+{% endblock %}

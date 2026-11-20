@@ -136,3 +136,6 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+# Redirect to home URL after login
+LOGIN_REDIRECT_URL = "/"

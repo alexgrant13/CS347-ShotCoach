@@ -12,4 +12,6 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('shots/new/', views.ShotCreateView.as_view(), name='shot-create'),
+    path('shots/<int:pk>/', views.ShotDetailView.as_view(), name='shot-detail'),
 ]

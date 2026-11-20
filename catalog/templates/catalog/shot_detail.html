@@ -1,0 +1,15 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}{{ shot.title }} · ShotCoach{% endblock %}
+
+{% block content %}
+<article class="shot-detail">
+  <img src="{{ shot.image.url }}" alt="{{ shot.title }}" class="shot-image">
+  <div>
+    <h1>{{ shot.title }}</h1>
+    <p class="meta">Uploaded {{ shot.created_at|date:"M j, Y" }}</p>
+    {% if shot.idea_text %}<p>{{ shot.idea_text }}</p>{% endif %}
+    <p class="meta">{{ shot.settings_summary }}</p>
+  </div>
+</article>
+{% endblock %}
